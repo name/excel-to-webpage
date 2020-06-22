@@ -1,0 +1,22 @@
+{
+  "name": "excel-to-webpage",
+  "version": "1.0.0",
+  "description": "Proof of concept project to display Excel spreadsheets on a webpage.",
+  "main": "app.js",
+  "scripts": {
+    "test": "Run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/name/excel-to-webpage.git"
+  },
+  "author": "Charlie Maddex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/name/excel-to-webpage/issues"
+  },
+  "homepage": "https://github.com/name/excel-to-webpage#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
