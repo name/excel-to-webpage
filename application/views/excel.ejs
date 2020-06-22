@@ -2,14 +2,18 @@
 
         <main>
             <div class="jumbotron">
-                <table>
-                    <tr>
-                       <th>User</th><th>Group</th><th>Disabled</th>
-                    </tr>
+                <table class="table table-bordered table-hover table-sm">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">User</th>
+                            <th scope="col">Group</th>
+                            <th scope="col">Disabled</th>
+                        </tr>
+                    </thead>
                  
                     <% for (var i = 0; i < output.length; i++) { %>
                      <tr>
-                       <td><%= output[i].User %></td>
+                       <td scope="row"><%= output[i].User %></td>
                        <td><%= output[i].Group %></td>
                        <td><%= output[i].Disabled %></td>
                      </tr>    
