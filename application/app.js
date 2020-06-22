@@ -48,8 +48,4 @@ app.get('/excel', (req, res) => {
     res.render('excel', { output : output })
 });
 
-app.get('/settings', (req, res) => {
-    res.render('settings')
-});
-
 app.listen(port, console.log(`Server listening at http://localhost:${port}`));
