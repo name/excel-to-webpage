@@ -1,0 +1,26 @@
+<%- include('partial/header'); -%>
+
+        <main>
+            <div class="jumbotron">
+                <table>
+                    <tr>
+                       <th>User</th><th>Group</th><th>Disabled</th>
+                    </tr>
+                 
+                    <% for (var i = 0; i < output.length; i++) { %>
+                     <tr>
+                       <td><%= output[i].User %></td>
+                       <td><%= output[i].Group %></td>
+                       <td><%= output[i].Disabled %></td>
+                     </tr>    
+                    <% } %>
+                 </table>
+            </div>
+        </main>
+
+        <footer>
+            <%- include('partial/footer'); -%>
+        </footer>
+
+    </body>
+</html>
